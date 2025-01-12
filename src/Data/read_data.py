@@ -1,9 +1,10 @@
 import pandas as pd
+import os
 
-def load_train_data(path="data/train.csv"):
-    train_df = pd.read_csv(path)
-    return train_df
+def load_train_data():
+    train_path = os.path.abspath("../Data/train.csv")
+    return pd.read_csv(train_path)
 
-def load_test_data(path="data/test.csv"):
-    test_df = pd.read_csv(path)
-    return test_df
+def load_test_data():
+    test_path = os.path.abspath("../Data/test.csv")
+    return pd.read_csv(test_path)

@@ -1,0 +1,31 @@
+ML-PROJECT/
+├── Configs/
+├── Data/
+│   ├── data_description.txt
+│   ├── sample_submission.csv
+│   ├── test.csv
+│   ├── train.csv
+├── Notebooks/
+│   ├── 01_Data_Load.ipynb
+│   ├── 02_Data_Preprocessing.ipynb
+│   ├── 03_Model_Training.ipynb
+│   ├── 04_Predictions_and_Submission.ipynb
+├── Reports/
+├── src/
+│   ├── Data/
+│   │   ├── __init__.py
+│   │   ├── preprocess_data.py
+│   │   ├── read_data.py
+│   ├── Models/
+│   │   ├── gradient_boosting.py
+│   │   ├── linear_regression.py
+│   │   ├── neural_network.py
+│   │   ├── ridge_regression.py
+│   │   ├── train_model.py
+│   ├── Utils/
+│   │   ├── __init__.py
+│   │   ├── logger.py
+│   │   ├── metrics.py
+│   │   ├── plotting.py
+├── Tests/
+├── requirements.txt
