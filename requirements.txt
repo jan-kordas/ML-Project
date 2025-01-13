@@ -1,0 +1,34 @@
+# 01_Data_Load_and_Preprocess
+Cel
+
+Celem tego notebooka jest:
+
+    Wczytanie i analiza surowych danych.
+    Identyfikacja i przetwarzanie brakujących danych w sposób spójny dla zbioru treningowego i testowego.
+    Przygotowanie danych do dalszego modelowania poprzez imputację braków i standaryzację cech.
+
+Kroki notebooka
+
+    Wczytanie danych:
+        Zaimportowanie zbioru danych z pliku CSV.
+        Wyświetlenie podstawowych informacji o strukturze danych.
+
+    Eksploracja danych:
+        Analiza braków danych dla każdej kolumny.
+        Rozdzielenie kolumn na:
+            Numeryczne (int64, float64).
+            Kategoryczne (object).
+
+    Przetwarzanie braków danych:
+        Numeryczne: Wypełnienie braków medianą.
+        Kategoryczne: Wypełnienie braków wartością "Missing".
+        Opcjonalnie: Dodanie wskaźników braków (MissingFlag).
+
+    Standaryzacja cech (opcjonalne):
+        Przygotowanie cech numerycznych do modelowania poprzez skalowanie (np. MinMaxScaler lub Standaryzacja).
+
+    Walidacja danych:
+        Upewnienie się, że w przetworzonych danych nie występują braki.
+
+    Zapis danych:
+        Zapisanie przetworzonych danych do nowych plików CSV jako processed_train.csv.
