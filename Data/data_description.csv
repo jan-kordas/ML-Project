@@ -1,0 +1,80 @@
+Column,Imputation Method,Reasoning
+MSSubClass,Mode,Most common dwelling type assumption
+MSZoning,Mode,Most common zoning classification
+LotFrontage,Median per Neighborhood,Street frontage varies by neighborhood
+LotArea,Median,"Lot size varies widely, use median"
+Street,Mode,Most common road type
+Alley,'None',Missing means no alley access
+LotShape,Mode,Most common property shape
+LandContour,Mode,Most common land contour
+Utilities,Mode,Most homes have full utilities
+LotConfig,Mode,Most common lot configuration
+LandSlope,Mode,Most common slope
+Neighborhood,Mode,Most common neighborhood
+Condition1,Mode,Most common condition
+Condition2,Mode,Most common secondary condition
+BldgType,Mode,Most common building type
+HouseStyle,Mode,Most common house style
+OverallQual,Mode,Most common quality rating
+OverallCond,Mode,Most common condition rating
+YearBuilt,Mode,Most common year built
+YearRemodAdd,Mode,Most common remodeling year
+RoofStyle,Mode,Most common roof style
+RoofMatl,Mode,Most common roofing material
+Exterior1st,Mode,Most common exterior material
+Exterior2nd,Mode,Most common second exterior material
+MasVnrType,'None',Missing means no masonry veneer
+MasVnrArea,0,Missing means no masonry veneer
+ExterQual,Mode,Most common exterior quality
+ExterCond,Mode,Most common exterior condition
+Foundation,Mode,Most common foundation type
+BsmtQual,'None',Missing means no basement
+BsmtCond,'None',Missing means no basement
+BsmtExposure,'None',Missing means no basement windows
+BsmtFinType1,'None',Missing means unfinished basement
+BsmtFinType2,'None',Missing means unfinished basement
+BsmtFinSF1,Median,Finished basement area varies
+BsmtFinSF2,Median,Second finished basement area varies
+BsmtUnfSF,Median,Unfinished basement space varies
+TotalBsmtSF,Median,Total basement size varies
+Heating,Mode,Most common heating system
+HeatingQC,Mode,Most common heating quality
+CentralAir,Mode,Most homes have central air
+Electrical,Mode,Most common electrical system
+1stFlrSF,Median,First floor area varies
+2ndFlrSF,Median,Second floor area varies
+LowQualFinSF,Median,Low-quality finished space
+GrLivArea,Median,Above-ground living area
+BsmtFullBath,Mode,Most common number of full basement bathrooms
+BsmtHalfBath,Mode,Most common number of half basement bathrooms
+FullBath,Mode,Most common number of full bathrooms
+HalfBath,Mode,Most common number of half bathrooms
+BedroomAbvGr,Mode,Most common number of bedrooms
+KitchenAbvGr,Mode,Most common number of kitchens
+KitchenQual,Mode,Most common kitchen quality
+TotRmsAbvGrd,Mode,Most common number of total rooms above ground
+Functional,Mode,Most common home functionality
+Fireplaces,Mode,Most common number of fireplaces
+FireplaceQu,'None',Missing means no fireplace
+GarageType,'None',Missing means no garage
+GarageYrBlt,0,Missing means no garage
+GarageFinish,'None',Missing means no garage finish
+GarageCars,Mode,Most common number of garage spaces
+GarageArea,Median,Garage size varies
+GarageQual,'None',Missing means no garage quality
+GarageCond,'None',Missing means no garage condition
+PavedDrive,Mode,Most common driveway type
+WoodDeckSF,Median,Deck size varies
+OpenPorchSF,Median,Open porch size varies
+EnclosedPorch,Median,Enclosed porch size varies
+3SsnPorch,Median,Three-season porch size varies
+ScreenPorch,Median,Screened porch size varies
+PoolArea,0,Missing means no pool
+PoolQC,'None',Missing means no pool
+Fence,'None',Missing means no fence
+MiscFeature,'None',Missing means no miscellaneous feature
+MiscVal,0,Missing means no miscellaneous value
+MoSold,Mode,Most common month sold
+YrSold,Mode,Most common year sold
+SaleType,Mode,Most common sale type
+SaleCondition,Mode,Most common sale condition
